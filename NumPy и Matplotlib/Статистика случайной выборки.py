@@ -29,7 +29,7 @@ print(inputs_normalized[:5])
 print(np.min(inputs_normalized), np.max(inputs_normalized))
 
 #Постройте две гистограммы рядом: до нормировки и после. У каждой нужны заголовок, подписи осей и сетка.
-plt.figure(figsize=(12, 5))  # Высоту лучше сделать поменьше (например, 5), чтобы графики не вытягивались вверх
+plt.figure(figsize=(12, 5))
 
 # Левый график (До нормировки)
 plt.subplot(1, 2, 1)
